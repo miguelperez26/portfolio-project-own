@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Miguel Perez | Mi Portafolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./resources/css/index.css" type="text/css">
+    </head>
+    <body>
+            
+            <!-- Navbar (En la punta de la página o top) -->
+            <div class="w3-top">
+              <div class="w3-bar" id="myNavbar">
+                <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                  <i class="fa fa-bars"></i>
+                </a>
+                <a href="#home" class="w3-bar-item w3-button">INICIO</a>
+                <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> SOBRE MÍ</a>
+                <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTAFOLIO</a>
+                <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACTO</a>
+                <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+                  <i class="fa fa-search">  </i>
+                </a>
+              </div>
+            
+              <!-- Navbar para pantallas pequeñas -->
+              <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+                <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">SOBRE MÍ</a>
+                <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTAFOLIO</a>
+                <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACTO</a>
+                <a href="#" class="w3-bar-item w3-button">BUSCAR</a>
+              </div>
+            </div>
+            
+            <!-- Código de la primera imagen con efecto Parallax -->
+            <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+              <div class="w3-display-middle" style="white-space:nowrap;">
+
+              </div>
+            </div>
+            
+            <!-- Container (Sobre Mí) -->
+            <div class="w3-content w3-container w3-padding-64" id="about">
+              <h3 class="w3-center">SOBRE MÍ</h3>
+              <p class="w3-center"><em>Miguel Ángel Pérez Álvarez  <br> Desarrollador Web Junior</em></p>
+              <p>Soy Miguel Ángel Pérez Álvarez, un desarrollador web junior de Bogotá, Colombia. Poseo 1 año de experiencia en Desarrollo Web. Cuento con conocimientos intermedios en HTML5, CSS3 y
+                  JavaScript. Me apasiona planear, diagramar, diseñar y programar sitios web atractivos al usuario. Dentro de mi experiencia he utilizado la biblioteca Bootstrap para mejorar la apariencia y 
+                  el diseño de mis sitios web. Dentro de mis hobbies se encuentran la acampada al aire libre, las caminatas en sitios naturales, el montañismo y la tecnología en general. Disfruto mucho 
+                  escribir código y me hace feliz poder aprender cada día más para ser un mejor desarrollador.
+              </p>
+              <div class="w3-row">
+                <div class="w3-col m6 w3-center w3-padding-large">
+                  <p id="unpocodemi"><b><i class="fa fa-user w3-margin-right"></i> Un poco de mí </b></p><br>
+                  <img src="file:///C:/Users/migue/Documents/Mis%20Proyectos%20de%20Software/projects/Codecademy/OwnProject/resources/img/meCover.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+                </div>
+            
+                <!-- No muestra esto en dispositivos pequeños -->
+                <div class="w3-col m6 w3-hide-small w3-padding-large">
+                  <p><br><br><br>Bienvenido a mi sitio web. <br><br>Aquí puede conocer un poco más de mí. Dentro de este sitio puede ver los proyectos en los que he trabajado o colaborado, aprender
+                      un poco más de mi vida personal, así como identificar las tecnologías en las que me encuentro capacitado, y las que estoy aprendiendo en el momento. Considero que 
+                      para crear un buen sitio web es necesario tener distintas variables en cuenta, como lo son el público al que la página se encuentra dirigido, el tamaño de la audiencia
+                      del sitio y muchas más. Por esto, siempre es recomendable que la tarea de diseñar y elaborar un sitio web siempre se deje a una persona que tenga los conocimientos 
+                      necesarios, como un desarrollador web, con el fin de crear un producto de calidad, llamativo y funcional.
+                  </p>
+                </div>
+              </div>
+              <p class="w3-large w3-center w3-padding-16">Tecnologías que conozco</p>
+              <p class="w3-wide"><i class="fa fa-camera"></i>HTML</p>
+              <div class="w3-light-grey">
+                <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+              </div>
+              <p class="w3-wide"><i class="fa fa-laptop"></i>CSS</p>
+              <div class="w3-light-grey">
+                <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">80%</div>
+              </div>
+              <p class="w3-wide"><i class="fa fa-photo"></i>JavaScript</p>
+              <div class="w3-light-grey">
+                <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">70%</div>
+              </div>
+            </div>
+            
+            <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+              <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">+1</span><br>
+                Años de Experiencia
+              </div>
+              <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">+10</span><br>
+                Proyectos Completados
+              </div>
+              <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">+5</span><br>
+                Tecnologías
+              </div>
+              <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">+10</span><br>
+                Recomendaciones Personales
+              </div>
+            </div>
+            
+            <!-- Segunda imagen de Parallax  con el texto PORTAFOLIO -->
+            <div class="bgimg-2 w3-display-container w3-opacity-min">
+              <div class="w3-display-middle">
+                <span class="w3-xxlarge w3-text-white w3-wide">PORTAFOLIO</span>
+              </div>
+            </div>
+            
+            <!-- Container (Portfolio) -->
+            <div class="w3-content w3-container w3-padding-64" id="portfolio">
+              <h3 class="w3-center">Mi Trabajo</h3>
+              <p class="w3-center"><em>A continuación algunos de los proyectos en los que he colaborado o he sido autor<br> Haga click en la imagen para verla en tamaño completo</em></p><br>
+            
+              <!-- Grilla responsive. Cuatro columnas en tablets, laptops y desktops. Se apila en dispositivos móviles/pantallas pequeñas (100% width) -->
+              <div class="w3-row-padding w3-center" id="misproyectos">
+                <div class="w3-col m3">
+                  <img id="davies" src="file:///C:/Users/migue/Documents/Mis%20Proyectos%20de%20Software/projects/Codecademy/OwnProject/resources/img/davies.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Davie's Burgers">
+                </div>
+            
+                <div class="w3-col m3">
+                  <img id="dasmoto" src="file:///C:/Users/migue/Documents/Mis%20Proyectos%20de%20Software/projects/Codecademy/OwnProject/resources/img/dasmoto.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Dasmoto's Crafts">
+                </div>
+            
+                <div class="w3-col m3">
+                  <img id="numberguesser" src="file:///C:/Users/migue/Documents/Mis%20Proyectos%20de%20Software/projects/Codecademy/OwnProject/resources/img/numberguesser.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Number Guesser">
+                </div>
+              </div>
+            
+              <div class="w3-row-padding w3-center w3-section">
+                </div>
+              </div>
+            </div>
+            
+            <!-- Modal para que la imagen se aumente a tamaño completo al hacer click-->
+            <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+              <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+              <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img id="img01" class="w3-image">
+                <p id="caption" class="w3-opacity w3-large"></p>
+              </div>
+            </div>
+            
+            <!-- Tercera imagen de Parallax Image con texto CONTACTAME -->
+            <div class="bgimg-3 w3-display-container w3-opacity-min">
+              <div class="w3-display-middle">
+                 <span class="w3-xxlarge w3-text-white w3-wide">CONTÁCTAME</span>
+              </div>
+            </div>
+            
+            <!-- Container (Contacto) -->
+            <div class="w3-content w3-container w3-padding-64" id="contact">
+              <h3 class="w3-center">CONTÁCTAME</h3>
+              <p class="w3-center"><em>Me encantaría saber de ti!</em></p>
+            
+              <div class="w3-row w3-padding-32 w3-section">
+                <div class="w3-col m4 w3-container">
+                  <img id="chorrera" src="file:///C:/Users/migue/Documents/Mis%20Proyectos%20de%20Software/projects/Codecademy/OwnProject/resources/img/chorrera.jpg" class="w3-image w3-round" style="width:100%">
+                </div>
+                <div class="w3-col m8 w3-panel">
+                  <div class="w3-large w3-margin-bottom">
+                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Bogotá, Colombia, South America<br>
+                    <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Teléfono: 313-664-4494<br>
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: migperez0926@gmail.com<br>
+                  </div>
+                  <p>Tomemos un <i class="fa fa-coffee"></i>, o déjame un mensaje:</p>
+                  <form action="?action=save" name="myform" method="post">
+                    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                      <div class="w3-half">
+                        <input class="w3-input w3-border" type="text" placeholder="Nombre" required name="Nombre">
+                      </div>
+                      <div class="w3-half">
+                        <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                      </div>
+                    </div>
+                    <input class="w3-input w3-border" type="text" placeholder="Mensaje" required name="Mensaje">
+                    <button class="w3-button w3-black w3-right w3-section" type="submit">
+                      <i class="fa fa-paper-plane"></i> Enviar Mensaje
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Pie de página -->
+            <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+              <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Volver al inicio</a>
+              <div class="w3-xlarge w3-section">
+                <a href="https://www.facebook.com/miguelperez26"><i class="fa fa-facebook-official w3-hover-opacity"></i></i></a>
+                <a href="https://www.instagram.com/_migperez"><i class="fa fa-instagram w3-hover-opacity"></i></i></a>
+                <a href="https://www.linkedin.com/in/miguel-angel-perez-alvarez-ab7bb617b/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+              </div>
+              <p>Miguel Ángel Pérez Álvarez &#169 <br> 2020</p>
+            </footer>
+             
+            <script>
+            // Galería de imágenes en Modal
+            function onClick(element) {
+              document.getElementById("img01").src = element.src;
+              document.getElementById("modal01").style.display = "block";
+              var captionText = document.getElementById("caption");
+              captionText.innerHTML = element.alt;
+            }
+            
+            // Cambiar el estilo de la barra de navegación al hacer scroll
+            window.onscroll = function() {myFunction()};
+            function myFunction() {
+                var navbar = document.getElementById("myNavbar");
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+                } else {
+                    navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+                }
+            }
+            
+
+            // Se usa para hacer toggle en el menu en pantallas pequeñas al hacer click en el botón menu
+            function toggleFunction() {
+                var x = document.getElementById("navDemo");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+            </script> 
+            <!--Código en PHP para enviar información de formulario CONTÁCTAME-->
+            <?php
+            $action = $_GET["action"];
+            $myText = $_POST["Nombre"];
+            
+            if($action = "save") {
+              $targetFolder = "file:///C:/Users/migue/Documents/Mis%20Proyectos%20de%20Software/projects/Codecademy/OwnProject/resources";
+              file_put_contents($targetFolder."datoscontacto.txt", $Nombre);
+            }
+            ?>   
+    </body>
+</html>
