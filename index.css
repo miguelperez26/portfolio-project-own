@@ -1,0 +1,85 @@
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Lato", sans-serif;}
+
+
+body, html {
+              height: 100%;
+              color: #777;
+              line-height: 1.8;
+            }
+
+            h3 {
+                font-size: 30px;
+                font-weight: bold;
+                font-style: unset;
+                color: black;
+                
+            }
+            
+            /* Efecto Parallax */
+            .bgimg-1, .bgimg-2, .bgimg-3 {
+              background-attachment: fixed;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+
+
+            #unpocodemi {
+                margin-left: 40px;
+            }
+
+            /* Imágenes de Mis Proyectos */
+            #misproyectos {
+                margin-left: 200px;
+            }
+
+            #davies {
+                width: 200px;
+                height: 150px;
+            }
+
+            #dasmoto {
+                width: 200px;
+                height: 150px;
+            }
+
+            #numberguesser {
+                width: 200px;
+                height: 150px;
+            }
+
+            /* Primera imagen de mí en Villa de Leyva */
+            .bgimg-1 {
+              background-image: url("me.jpg");
+              min-height: 80%;
+              max-height: 100%;
+            }
+
+            
+            /* Imagen de fondo del portafolio en playa de Cartagena */
+            .bgimg-2 {
+              background-image: url("paisajectg.jpg");
+              min-height: 400px;
+            }
+            
+            /* Imagen de fondo de contacto en Choachí*/
+            .bgimg-3 {
+              background-image: url("paisajechorrera.jpg");
+              min-height: 400px;
+            }
+
+            #chorrera {
+                transform: rotate(90deg);
+            }
+            
+            .w3-wide {letter-spacing: 10px;}
+            .w3-hover-opacity {cursor: pointer;}
+            
+            /* Apagar parallax scrolling en tablets y smartphones */
+            @media only screen and (max-device-width: 1600px) {
+              .bgimg-1, .bgimg-2, .bgimg-3 {
+                background-attachment: scroll;
+                min-height: 400px;
+              }
+            }
